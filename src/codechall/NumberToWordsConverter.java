@@ -24,7 +24,7 @@ public static final String[] tens = {
 
 public static String convert(final int n) {
 	if (n < 0) {
-		return "Minus " + convert(-n);
+		return "Negative " + convert(-n);
 	}
 
 	if (n < 20) {
