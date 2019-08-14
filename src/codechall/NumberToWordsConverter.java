@@ -1,6 +1,5 @@
 package codechall;
-import java.text.NumberFormat;
-import java.util.Scanner;
+
 
 public class NumberToWordsConverter {
 
@@ -22,7 +21,7 @@ public static final String[] tens = {
 		"Ninety" 	// 9
 };
 
-public static String convert(final int n) {
+public String convert(final int n) {
 	if (n < 0) {
 		return "Negative " + convert(-n);
 	}
