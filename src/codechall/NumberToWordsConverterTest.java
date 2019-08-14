@@ -121,7 +121,7 @@ class NumberToWordsConverterTest {
 	}
 	@Test
 	void test16() {
-		String expected ="Fourty";
+		String expected ="Forty";
 		NumberToWordsConverter n = new NumberToWordsConverter();
 		String actual = n.convert(40);
 		assertEquals(expected, actual);
@@ -252,5 +252,4 @@ class NumberToWordsConverterTest {
 		String actual = n.convert(100000);
 		assertEquals(expected, actual);
 	}
-
 }

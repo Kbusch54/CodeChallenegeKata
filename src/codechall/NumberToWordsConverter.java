@@ -13,7 +13,7 @@ public static final String[] tens = {
 		"",		// 1
 		"Twenty", 	// 2
 		"Thirty", 	// 3
-		"Fourty", 	// 4
+		"Forty", 	// 4
 		"Fifty", 	// 5
 		"Sixty", 	// 6
 		"Seventy",	// 7
